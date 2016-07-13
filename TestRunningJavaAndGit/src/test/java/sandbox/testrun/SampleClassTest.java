@@ -8,9 +8,11 @@ public class SampleClassTest {
 
 	@Test
 	public void testCalc() {
+		int addingValue = 10;
+		int addedValue = 11;
 		SampleClass inst = new SampleClass();
-		int result = inst.clac(10);
-		assertEquals(11, result);
+		int result = inst.clac(addingValue);
+		assertEquals(addedValue, result);
 	}
 
 }
